@@ -1254,3 +1254,7 @@ a:focus-visible {
     margin-bottom: 14px;
   }
 }
+
+.cv-profile .page-button {
+  margin-top: 20px;
+}
