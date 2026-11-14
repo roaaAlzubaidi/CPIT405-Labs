@@ -26,65 +26,117 @@
   </header>
 
   <main class="labs-page">
+    <a class="back-button" href="index.html">
+      ← Back to Studio
+    </a>
+
     <section class="page-heading">
       <h1>Course <span>Labs</span></h1>
-
-      <p>
-        My practical work in CPIT-405: Internet Applications.
-        Select a lab to view the live page.
-      </p>
+      <p>My completed work in CPIT-405: Internet Applications.</p>
     </section>
 
-    <section class="course-labs" aria-label="Completed course labs">
-      <a
-        class="course-lab"
-        href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/Lab2.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="lab-title">Lab 2</span>
-        <span class="lab-action">View Lab</span>
-      </a>
+    <section aria-label="Completed labs">
+      <div class="labs-table-container">
+        <table class="labs-table">
+          <caption>Completed Course Labs</caption>
 
-      <a
-        class="course-lab"
-        href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/Lab3.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="lab-title">Lab 3</span>
-        <span class="lab-action">View Lab</span>
-      </a>
+          <thead>
+            <tr>
+              <th scope="col">Lab</th>
+              <th scope="col">Topic</th>
+              <th scope="col">Status</th>
+              <th scope="col">Link</th>
+            </tr>
+          </thead>
 
-      <a
-        class="course-lab"
-        href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/lab5/index.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="lab-title">Lab 5</span>
-        <span class="lab-action">View Lab</span>
-      </a>
+          <tbody>
+            <tr>
+              <th scope="row">Lab 2</th>
+              <td>Introduction, HTML Structure</td>
+              <td><span class="lab-status">Completed</span></td>
+              <td>
+                <a
+                  class="lab-open"
+                  href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/Lab2.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Lab 2 in a new tab"
+                >
+                  Open
+                </a>
+              </td>
+            </tr>
 
-      <a
-        class="course-lab"
-        href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/lab6/index.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="lab-title">Lab 6</span>
-        <span class="lab-action">View Lab</span>
-      </a>
+            <tr>
+              <th scope="row">Lab 3</th>
+              <td>CSS Structure and Properties</td>
+              <td><span class="lab-status">Completed</span></td>
+              <td>
+                <a
+                  class="lab-open"
+                  href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/Lab3.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Lab 3 in a new tab"
+                >
+                  Open
+                </a>
+              </td>
+            </tr>
 
-      <a
-        class="course-lab"
-        href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/lab7/index.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="lab-title">Lab 7</span>
-        <span class="lab-action">View Lab</span>
-      </a>
+            <tr>
+              <th scope="row">Lab 5</th>
+              <td>DOM API and JS Events</td>
+              <td><span class="lab-status">Completed</span></td>
+              <td>
+                <a
+                  class="lab-open"
+                  href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/lab5/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Lab 5 in a new tab"
+                >
+                  Open
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">Lab 6</th>
+              <td>JavaScript</td>
+              <td><span class="lab-status">Completed</span></td>
+              <td>
+                <a
+                  class="lab-open"
+                  href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/lab6/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Lab 6 in a new tab"
+                >
+                  Open
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">Lab 7</th>
+              <td>Asynchronous JavaScript (Ajax Programming)</td>
+              <td><span class="lab-status">Completed</span></td>
+              <td>
+                <a
+                  class="lab-open"
+                  href="https://roaaalzubaidi.github.io/CPIT405-Labs/Labs/lab7/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Lab 7 in a new tab"
+                >
+                  Open
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
   </main>
 
@@ -92,9 +144,7 @@
     <p>&copy; 2026 Roaa Alzubaidi | CPIT-405</p>
 
     <div class="footer-links">
-      <a href="mailto:ralzubaidi0032@stu.kau.edu.sa">
-        Email
-      </a>
+      <a href="mailto:ralzubaidi0032@stu.kau.edu.sa">Email</a>
 
       <a
         href="https://www.linkedin.com/in/roaa-alzubaidi-8a3276297/"
@@ -111,13 +161,14 @@
       >
         GitHub
       </a>
+
       <a
-  href="https://x.com/roaa_s_zu"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  X
-</a>
+        href="https://x.com/roaa_s_zu"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        X
+      </a>
     </div>
   </footer>
 </body>
